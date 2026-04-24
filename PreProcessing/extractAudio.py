@@ -1,10 +1,12 @@
 import ffmpeg
 from pathlib import Path
+from PreProcessing.Paths import BASE_DIR
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+# BASE_DIR = Path(__file__).resolve().parent.parent
 TEMP_AUDIO = BASE_DIR / "Temp" / "Audio"
 TEMP_AUDIO.mkdir(parents=True, exist_ok=True)
 SUPPORTED_EXTENSIONS = {".aac", ".mp4", ".mov", ".mkv", ".wav", ".flac"}
+
 
 
 def extract_audio(video):
@@ -26,4 +28,5 @@ def _extract_audio_file(video_file: Path):
         .output(str(audio), acodec="copy", vn=None)
         .run(overwrite_output=True)
     )
+    print(f"{audio} aduio extracted")
     return audio
