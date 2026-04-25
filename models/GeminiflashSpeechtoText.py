@@ -1,11 +1,15 @@
-# AIzaSyAAUP1lq_MzNxlfiG7iR4hKH-_v03MhhFc
-
+from dotenv import load_dotenv
 from google import genai
 from pathlib import Path
+import os
+
+load_dotenv()
 
 class GeminiTranscriber:
     def __init__(self):
-        self.client = genai.Client(api_key="AIzaSyAAUP1lq_MzNxlfiG7iR4hKH-_v03MhhFc")
+        api_key = os.getenv("GEMINI_API_KEY")
+       
+        self.client = genai.Client(api_key=api_key.strip())
         self.model_name = "gemini-2.5-flash"
 
     def transcribe(self, audio_path):
