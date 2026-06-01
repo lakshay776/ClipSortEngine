@@ -1,0 +1,5 @@
+rn we are using the gemini model for speech to text because of the laptops latency
+
+
+gemini speech to text is throwing 503 errors so taht is why we are using faster whisper model
+
