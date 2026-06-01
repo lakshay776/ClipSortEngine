@@ -25,3 +25,4 @@ coverage.xml
 .hypothesis
 share/
 Temp/
+.env
