@@ -15,22 +15,23 @@ def extract_text(audio):
     return all_transcriptions
 
 
-def _transcribe(audio_path,all_transcriptions):
-   
+def _transcribe(audio_path, all_transcriptions):
+
     audio_path = Path(audio_path)
-    transcript = model.transcribe(str(audio_path))
+    # faster_whisper returns (segments_generator, TranscriptionInfo)
+    segments, info = model.transcribe(str(audio_path))
     transcript_file = TEMP_TEXT / f"{audio_path.stem}.txt"
-    
-    if isinstance(transcript, (list, tuple)):
-        lines = []
-        for segment in transcript:
-            text = getattr(segment, "text", str(segment)).strip()
+
+    print(f"Detected language: {info.language} ({info.language_probability:.2%})")
+
+    lines = []
+    for segment in segments:
+        text = segment.text.strip()
+        if text:
             lines.append(text)
             print(text)
-        full_text = "\n".join(lines)
-    else:
-        full_text = str(transcript)
-        print(full_text)
+
+    full_text = "\n".join(lines)
 
     with open(transcript_file, "w", encoding="utf-8") as f:
         f.write(full_text)
