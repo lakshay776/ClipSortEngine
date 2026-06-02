@@ -8,6 +8,8 @@ if str(BASE_DIR) not in sys.path:
 from PreProcessing.extractAudio import extract_audio
 from PreProcessing.extractText import extract_text
 from VectorEngine.vector_generation import vector_engine
+from PreProcessing.ScriptPipeline import ScriptPipeline
+from Paths import SCRIPTS
 
 
 def preprocess(videos):
@@ -18,6 +20,9 @@ def preprocess(videos):
         audio_files = extract_audio(video)
         all_transcriptions.extend(extract_text(audio_files))
     vector_engine(all_transcriptions)
+    for script in SCRIPTS.glob("*.txt"):
+        ScriptPipeline(script)
+    
 
 
    
