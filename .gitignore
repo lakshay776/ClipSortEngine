@@ -27,3 +27,22 @@ share/
 Temp/
 
 .env
+# Environment files and secrets
+.env
+.env.*
+.envrc
+secrets/
+credentials.json
+secrets.json
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.crt
+*.csr
+*.der
+*.asc
+.env
