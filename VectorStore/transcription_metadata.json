@@ -1,0 +1,954 @@
+[
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "<generator object WhisperModel generate_segments at 0x000001780530F6F0>"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "<generator object WhisperModel generate_segments at 0x000001780530F6F0> TranscriptionInfo(language='hi', language_probability=0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "generate_segments at 0x000001780530F6F0> TranscriptionInfo(language='hi', language_probability=0 9752562642097473, duration=60"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "TranscriptionInfo(language='hi', language_probability=0 9752562642097473, duration=60 0533125, duration_after_vad=60"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "9752562642097473, duration=60 0533125, duration_after_vad=60 0533125, all_language_probs=[('hi', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0533125, duration_after_vad=60 0533125, all_language_probs=[('hi', 0 9752562642097473), ('en', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0533125, all_language_probs=[('hi', 0 9752562642097473), ('en', 0 0172517579048872), ('ur', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "9752562642097473), ('en', 0 0172517579048872), ('ur', 0 005461303051561117), ('pa', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0172517579048872), ('ur', 0 005461303051561117), ('pa', 0 0002805994881782681), ('th', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "005461303051561117), ('pa', 0 0002805994881782681), ('th', 0 00018071048543788493), ('bn', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0002805994881782681), ('th', 0 00018071048543788493), ('bn', 0 0001440484484191984), ('ja', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "00018071048543788493), ('bn', 0 0001440484484191984), ('ja', 0 00014353256847243756), ('zh', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0001440484484191984), ('ja', 0 00014353256847243756), ('zh', 0 00011894525960087776), ('te', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "00014353256847243756), ('zh', 0 00011894525960087776), ('te', 0 00011131307837786153), ('tr', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "00011894525960087776), ('te', 0 00011131307837786153), ('tr', 9 21398532227613e-05), ('ml', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "00011131307837786153), ('tr', 9 21398532227613e-05), ('ml', 8 447297295788303e-05), ('es', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "21398532227613e-05), ('ml', 8 447297295788303e-05), ('es', 8 205199264921248e-05), ('ta', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "447297295788303e-05), ('es', 8 205199264921248e-05), ('ta', 8 178419375326484e-05), ('ne', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "205199264921248e-05), ('ta', 8 178419375326484e-05), ('ne', 7 587519939988852e-05), ('nl', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "178419375326484e-05), ('ne', 7 587519939988852e-05), ('nl', 7 269335037562996e-05), ('sa', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "587519939988852e-05), ('nl', 7 269335037562996e-05), ('sa', 6 935541023267433e-05), ('mr', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "269335037562996e-05), ('sa', 6 935541023267433e-05), ('mr', 5 465804861159995e-05), ('cs', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "935541023267433e-05), ('mr', 5 465804861159995e-05), ('cs', 4 704562161350623e-05), ('ko', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "465804861159995e-05), ('cs', 4 704562161350623e-05), ('ko', 4 7045174142112955e-05), ('vi', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "704562161350623e-05), ('ko', 4 7045174142112955e-05), ('vi', 4 117900971323252e-05), ('de', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "7045174142112955e-05), ('vi', 4 117900971323252e-05), ('de', 3 080914029851556e-05), ('pt', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "117900971323252e-05), ('de', 3 080914029851556e-05), ('pt', 2 630913513712585e-05), ('gu', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "080914029851556e-05), ('pt', 2 630913513712585e-05), ('gu', 2 460881478327792e-05), ('ms', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "630913513712585e-05), ('gu', 2 460881478327792e-05), ('ms', 2 1125875719008036e-05), ('sd', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "460881478327792e-05), ('ms', 2 1125875719008036e-05), ('sd', 1 89941783901304e-05), ('id', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "1125875719008036e-05), ('sd', 1 89941783901304e-05), ('id', 1 8093682228936814e-05), ('fr', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "89941783901304e-05), ('id', 1 8093682228936814e-05), ('fr', 1 7291495169047266e-05), ('la', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "8093682228936814e-05), ('fr', 1 7291495169047266e-05), ('la', 1 5579398677800782e-05), ('fa', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "7291495169047266e-05), ('la', 1 5579398677800782e-05), ('fa', 1 4406321497517638e-05), ('tl', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "5579398677800782e-05), ('fa', 1 4406321497517638e-05), ('tl', 1 1957050446653739e-05), ('it', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "4406321497517638e-05), ('tl', 1 1957050446653739e-05), ('it', 1 1479653949209023e-05), ('ar', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "1957050446653739e-05), ('it', 1 1479653949209023e-05), ('ar', 1 0799677511386108e-05), ('ru', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "1479653949209023e-05), ('ar', 1 0799677511386108e-05), ('ru', 9 995758773584384e-06), ('cy', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0799677511386108e-05), ('ru', 9 995758773584384e-06), ('cy', 8 608185453340411e-06), ('as', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "995758773584384e-06), ('cy', 8 608185453340411e-06), ('as', 7 149917564674979e-06), ('jw', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "608185453340411e-06), ('as', 7 149917564674979e-06), ('jw', 6 258098437683657e-06), ('pl', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "149917564674979e-06), ('jw', 6 258098437683657e-06), ('pl', 6 096839570091106e-06), ('nn', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "258098437683657e-06), ('pl', 6 096839570091106e-06), ('nn', 5 339502422430087e-06), ('si', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "096839570091106e-06), ('nn', 5 339502422430087e-06), ('si', 4 757083843287546e-06), ('no', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "339502422430087e-06), ('si', 4 757083843287546e-06), ('no', 3 549952225512243e-06), ('uk', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "757083843287546e-06), ('no', 3 549952225512243e-06), ('uk', 2 9861737402825383e-06), ('kn', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "549952225512243e-06), ('uk', 2 9861737402825383e-06), ('kn', 2 838480668287957e-06), ('sn', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "9861737402825383e-06), ('kn', 2 838480668287957e-06), ('sn', 2 491401346560451e-06), ('hu', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "838480668287957e-06), ('sn', 2 491401346560451e-06), ('hu', 2 417516270725173e-06), ('mi', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "491401346560451e-06), ('hu', 2 417516270725173e-06), ('mi', 1 6298499758704565e-06), ('bo', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "417516270725173e-06), ('mi', 1 6298499758704565e-06), ('bo', 1 5860871371842222e-06), ('km', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "6298499758704565e-06), ('bo', 1 5860871371842222e-06), ('km', 1 5771231574035482e-06), ('da', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "5860871371842222e-06), ('km', 1 5771231574035482e-06), ('da', 1 5707272496001679e-06), ('ps', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "5771231574035482e-06), ('da', 1 5707272496001679e-06), ('ps', 1 3905829518989776e-06), ('gl', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "5707272496001679e-06), ('ps', 1 3905829518989776e-06), ('gl', 1 158749569185602e-06), ('bg', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "3905829518989776e-06), ('gl', 1 158749569185602e-06), ('bg', 8 714436603440845e-07), ('haw', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "158749569185602e-06), ('bg', 8 714436603440845e-07), ('haw', 8 415671572947758e-07), ('fi', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "714436603440845e-07), ('haw', 8 415671572947758e-07), ('fi', 8 163736993083148e-07), ('sl', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "415671572947758e-07), ('fi', 8 163736993083148e-07), ('sl', 6 598573349947401e-07), ('sk', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "163736993083148e-07), ('sl', 6 598573349947401e-07), ('sk', 6 431404244722216e-07), ('ro', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "598573349947401e-07), ('sk', 6 431404244722216e-07), ('ro', 6 389149120877846e-07), ('el', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "431404244722216e-07), ('ro', 6 389149120877846e-07), ('el', 6 134928298706654e-07), ('br', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "389149120877846e-07), ('el', 6 134928298706654e-07), ('br', 5 440467703010654e-07), ('sw', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "134928298706654e-07), ('br', 5 440467703010654e-07), ('sw', 5 348260287973972e-07), ('my', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "440467703010654e-07), ('sw', 5 348260287973972e-07), ('my', 4 923206233797828e-07), ('sv', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "348260287973972e-07), ('my', 4 923206233797828e-07), ('sv', 3 9632519133192545e-07), ('ca', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "923206233797828e-07), ('sv', 3 9632519133192545e-07), ('ca', 3 6334071751298325e-07), ('lo', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "9632519133192545e-07), ('ca', 3 6334071751298325e-07), ('lo', 3 28104846403221e-07), ('mn', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "6334071751298325e-07), ('lo', 3 28104846403221e-07), ('mn', 3 2644999237163574e-07), ('yo', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "28104846403221e-07), ('mn', 3 2644999237163574e-07), ('yo', 3 112269837401982e-07), ('ht', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "2644999237163574e-07), ('yo', 3 112269837401982e-07), ('ht', 2 999864818775677e-07), ('af', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "112269837401982e-07), ('ht', 2 999864818775677e-07), ('af', 2 702829533518525e-07), ('be', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "999864818775677e-07), ('af', 2 702829533518525e-07), ('be', 2 2013551870259107e-07), ('bs', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "702829533518525e-07), ('be', 2 2013551870259107e-07), ('bs', 1 966899674243905e-07), ('he', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "2013551870259107e-07), ('bs', 1 966899674243905e-07), ('he', 1 914851850415289e-07), ('az', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "966899674243905e-07), ('he', 1 914851850415289e-07), ('az', 1 8137062340883858e-07), ('sr', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "914851850415289e-07), ('az', 1 8137062340883858e-07), ('sr', 1 6995414853226976e-07), ('eu', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "8137062340883858e-07), ('sr', 1 6995414853226976e-07), ('eu', 1 436538212828964e-07), ('hr', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "6995414853226976e-07), ('eu', 1 436538212828964e-07), ('hr', 1 3579135327290714e-07), ('hy', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "436538212828964e-07), ('hr', 1 3579135327290714e-07), ('hy', 7 26878255363772e-08), ('mk', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "3579135327290714e-07), ('hy', 7 26878255363772e-08), ('mk', 7 087115250214993e-08), ('et', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "26878255363772e-08), ('mk', 7 087115250214993e-08), ('et', 5 652097456732008e-08), ('lt', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "087115250214993e-08), ('et', 5 652097456732008e-08), ('lt', 3 2014273898539614e-08), ('kk', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "652097456732008e-08), ('lt', 3 2014273898539614e-08), ('kk', 3 135084369887409e-08), ('is', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "2014273898539614e-08), ('kk', 3 135084369887409e-08), ('is', 2 51899550107737e-08), ('lv', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "135084369887409e-08), ('is', 2 51899550107737e-08), ('lv', 2 31971792885588e-08), ('oc', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "51899550107737e-08), ('lv', 2 31971792885588e-08), ('oc', 2 29554970587742e-08), ('yi', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "31971792885588e-08), ('oc', 2 29554970587742e-08), ('yi', 1 527460469219477e-08), ('sq', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "29554970587742e-08), ('yi', 1 527460469219477e-08), ('sq', 9 629273378664038e-09), ('so', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "527460469219477e-08), ('sq', 9 629273378664038e-09), ('so', 7 630542420145048e-09), ('fo', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "629273378664038e-09), ('so', 7 630542420145048e-09), ('fo', 6 624689241618853e-09), ('mt', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "630542420145048e-09), ('fo', 6 624689241618853e-09), ('mt', 5 850339324098286e-09), ('ln', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "624689241618853e-09), ('mt', 5 850339324098286e-09), ('ln', 3 183918240168282e-09), ('am', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "850339324098286e-09), ('ln', 3 183918240168282e-09), ('am', 1 5611999470976912e-09), ('tg', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "183918240168282e-09), ('am', 1 5611999470976912e-09), ('tg', 7 979123473056404e-10), ('ka', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "5611999470976912e-09), ('tg', 7 979123473056404e-10), ('ka', 7 937517310097064e-10), ('tk', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "979123473056404e-10), ('ka', 7 937517310097064e-10), ('tk', 2 0228017871826154e-10), ('ba', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "937517310097064e-10), ('tk', 2 0228017871826154e-10), ('ba', 9 439937720401304e-11), ('ha', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0228017871826154e-10), ('ba', 9 439937720401304e-11), ('ha', 7 960179043697835e-11), ('tt', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "439937720401304e-11), ('ha', 7 960179043697835e-11), ('tt', 6 795974200057842e-11), ('su', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "960179043697835e-11), ('tt', 6 795974200057842e-11), ('su', 5 928289109613516e-11), ('uz', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "795974200057842e-11), ('su', 5 928289109613516e-11), ('uz', 2 9766921566531934e-11), ('lb', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "928289109613516e-11), ('uz', 2 9766921566531934e-11), ('lb', 2 838733415000405e-11), ('mg', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "9766921566531934e-11), ('lb', 2 838733415000405e-11), ('mg', 5 075792217090758e-12)], transcription_options=TranscriptionOptions(beam_size=5, best_of=5, patience=1, length_penalty=1, repetition_penalty=1, no_repeat_ngram_size=0, log_prob_threshold=-1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "838733415000405e-11), ('mg', 5 075792217090758e-12)], transcription_options=TranscriptionOptions(beam_size=5, best_of=5, patience=1, length_penalty=1, repetition_penalty=1, no_repeat_ngram_size=0, log_prob_threshold=-1 0, no_speech_threshold=0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "075792217090758e-12)], transcription_options=TranscriptionOptions(beam_size=5, best_of=5, patience=1, length_penalty=1, repetition_penalty=1, no_repeat_ngram_size=0, log_prob_threshold=-1 0, no_speech_threshold=0 6, compression_ratio_threshold=2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0, no_speech_threshold=0 6, compression_ratio_threshold=2 4, condition_on_previous_text=True, prompt_reset_on_temperature=0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "6, compression_ratio_threshold=2 4, condition_on_previous_text=True, prompt_reset_on_temperature=0 5, temperatures=[0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "4, condition_on_previous_text=True, prompt_reset_on_temperature=0 5, temperatures=[0 0, 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "5, temperatures=[0 0, 0 2, 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0, 0 2, 0 4, 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "2, 0 4, 0 6, 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "4, 0 6, 0 8, 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "6, 0 8, 1 0], initial_prompt=None, prefix=None, suppress_blank=True, suppress_tokens=(1, 2, 7, 8, 9, 10,"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "8, 1 0], initial_prompt=None, prefix=None, suppress_blank=True, suppress_tokens=(1, 2, 7, 8, 9, 10, 14, 25, 26, 27, 28, 29, 31, 58, 59, 60, 61, 62, 63, 90, 91, 92, 93, 359, 503, 522, 542, 873, 893, 902, 918, 922, 931, 1350, 1853, 1982, 2460, 2627, 3246, 3253, 3268, 3536, 3846, 3961, 4183, 4667, 6585, 6647, 7273, 9061, 9383, 10428, 10929, 11938, 12033, 12331, 12562, 13793, 14157, 14635, 15265, 15618, 16553, 16604, 18362, 18956, 20075, 21675, 22520, 26130, 26161, 26435, 28279, 29464, 31650, 32302, 32470, 36865, 42863, 47425, 49870, 50254, 50258, 50358, 50359, 50360, 50361, 50362), without_timestamps=False, max_initial_timestamp=1 0, word_timestamps=False, prepend_punctuations='\"\\'“¿([{-', append_punctuations='\"\\'"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "49870, 50254, 50258, 50358, 50359, 50360, 50361, 50362), without_timestamps=False, max_initial_timestamp=1 0, word_timestamps=False, prepend_punctuations='\"\\'“¿([{-', append_punctuations='\"\\' 。,，"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "0, word_timestamps=False, prepend_punctuations='\"\\'“¿([{-', append_punctuations='\"\\' 。,， ！"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "。,， ！ ？:：”)]}、', multilingual=False, max_new_tokens=None, clip_timestamps='0', hallucination_silence_threshold=None, hotwords=None), vad_options=None)"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\ranveer.txt",
+    "content": "！ ？:：”)]}、', multilingual=False, max_new_tokens=None, clip_timestamps='0', hallucination_silence_threshold=None, hotwords=None), vad_options=None)"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "<generator object WhisperModel generate_segments at 0x000001780530F760>"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "<generator object WhisperModel generate_segments at 0x000001780530F760> TranscriptionInfo(language='en', language_probability=0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "generate_segments at 0x000001780530F760> TranscriptionInfo(language='en', language_probability=0 993154764175415, duration=19"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "TranscriptionInfo(language='en', language_probability=0 993154764175415, duration=19 7333125, duration_after_vad=19"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "993154764175415, duration=19 7333125, duration_after_vad=19 7333125, all_language_probs=[('en', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "7333125, duration_after_vad=19 7333125, all_language_probs=[('en', 0 993154764175415), ('nn', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "7333125, all_language_probs=[('en', 0 993154764175415), ('nn', 0 0011200921144336462), ('ja', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "993154764175415), ('nn', 0 0011200921144336462), ('ja', 0 0008917625527828932), ('cy', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0011200921144336462), ('ja', 0 0008917625527828932), ('cy', 0 0004739015712402761), ('de', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0008917625527828932), ('cy', 0 0004739015712402761), ('de', 0 0004339005099609494), ('ko', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0004739015712402761), ('de', 0 0004339005099609494), ('ko', 0 0004306207993067801), ('pt', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0004339005099609494), ('ko', 0 0004306207993067801), ('pt', 0 0004296281258575618), ('th', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0004306207993067801), ('pt', 0 0004296281258575618), ('th', 0 0004116009222343564), ('la', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0004296281258575618), ('th', 0 0004116009222343564), ('la', 0 00039332732558250427), ('pl', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0004116009222343564), ('la', 0 00039332732558250427), ('pl', 0 0002902338746935129), ('hi', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "00039332732558250427), ('pl', 0 0002902338746935129), ('hi', 0 00027296325424686074), ('km', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0002902338746935129), ('hi', 0 00027296325424686074), ('km', 0 0002725902304518968), ('es', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "00027296325424686074), ('km', 0 0002725902304518968), ('es', 0 00016722230066079646), ('zh', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0002725902304518968), ('es', 0 00016722230066079646), ('zh', 0 0001561324024805799), ('fr', 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "00016722230066079646), ('zh', 0 0001561324024805799), ('fr', 0 00015444547170773149), ('haw', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0001561324024805799), ('fr', 0 00015444547170773149), ('haw', 9 234654862666503e-05), ('ru', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "00015444547170773149), ('haw', 9 234654862666503e-05), ('ru', 8 830840670270845e-05), ('ml', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "234654862666503e-05), ('ru', 8 830840670270845e-05), ('ml', 6 894907710375264e-05), ('vi', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "830840670270845e-05), ('ml', 6 894907710375264e-05), ('vi', 6 360579573083669e-05), ('tr', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "894907710375264e-05), ('vi', 6 360579573083669e-05), ('tr', 5 8798315876629204e-05), ('sn', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "360579573083669e-05), ('tr', 5 8798315876629204e-05), ('sn', 5 823779429192655e-05), ('sv', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "8798315876629204e-05), ('sn', 5 823779429192655e-05), ('sv', 4 886844544671476e-05), ('jw', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "823779429192655e-05), ('sv', 4 886844544671476e-05), ('jw', 4 8242349294014275e-05), ('it', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "886844544671476e-05), ('jw', 4 8242349294014275e-05), ('it', 4 591803372022696e-05), ('id', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "8242349294014275e-05), ('it', 4 591803372022696e-05), ('id', 4 5195967686595395e-05), ('tl', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "591803372022696e-05), ('id', 4 5195967686595395e-05), ('tl', 3 793185169342905e-05), ('ms', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "5195967686595395e-05), ('tl', 3 793185169342905e-05), ('ms', 3 7385856558103114e-05), ('ar', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "793185169342905e-05), ('ms', 3 7385856558103114e-05), ('ar', 2 3320200853049755e-05), ('ro', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "7385856558103114e-05), ('ar', 2 3320200853049755e-05), ('ro', 2 094520277751144e-05), ('fi', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "3320200853049755e-05), ('ro', 2 094520277751144e-05), ('fi', 1 9626082575996406e-05), ('te', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "094520277751144e-05), ('fi', 1 9626082575996406e-05), ('te', 1 9418181182118133e-05), ('hu', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "9626082575996406e-05), ('te', 1 9418181182118133e-05), ('hu', 1 8582310076453723e-05), ('mi', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "9418181182118133e-05), ('hu', 1 8582310076453723e-05), ('mi', 1 4646390809502918e-05), ('si', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "8582310076453723e-05), ('mi', 1 4646390809502918e-05), ('si', 1 3031715752731543e-05), ('br', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "4646390809502918e-05), ('si', 1 3031715752731543e-05), ('br', 1 2393961696943734e-05), ('bn', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "3031715752731543e-05), ('br', 1 2393961696943734e-05), ('bn', 1 2273024367459584e-05), ('sa', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "2393961696943734e-05), ('bn', 1 2273024367459584e-05), ('sa', 1 2203184269310441e-05), ('ta', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "2273024367459584e-05), ('sa', 1 2203184269310441e-05), ('ta', 1 143995723396074e-05), ('nl', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "2203184269310441e-05), ('ta', 1 143995723396074e-05), ('nl', 9 570709153194912e-06), ('el', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "143995723396074e-05), ('nl', 9 570709153194912e-06), ('el', 9 334011338069104e-06), ('cs', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "570709153194912e-06), ('el', 9 334011338069104e-06), ('cs', 7 111608283594251e-06), ('ur', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "334011338069104e-06), ('cs', 7 111608283594251e-06), ('ur', 5 6445492191414814e-06), ('yo', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "111608283594251e-06), ('ur', 5 6445492191414814e-06), ('yo', 5 12027236254653e-06), ('mn', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "6445492191414814e-06), ('yo', 5 12027236254653e-06), ('mn', 4 465329766389914e-06), ('sw', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "12027236254653e-06), ('mn', 4 465329766389914e-06), ('sw', 4 054507826367626e-06), ('fa', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "465329766389914e-06), ('sw', 4 054507826367626e-06), ('fa', 3 4446177323843585e-06), ('my', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "054507826367626e-06), ('fa', 3 4446177323843585e-06), ('my', 3 4188969948445447e-06), ('no', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "4446177323843585e-06), ('my', 3 4188969948445447e-06), ('no', 3 268226237196359e-06), ('sl', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "4188969948445447e-06), ('no', 3 268226237196359e-06), ('sl', 1 8615771750774002e-06), ('da', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "268226237196359e-06), ('sl', 1 8615771750774002e-06), ('da', 1 6482313185406383e-06), ('hy', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "8615771750774002e-06), ('da', 1 6482313185406383e-06), ('hy', 1 5448875956280972e-06), ('uk', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "6482313185406383e-06), ('hy', 1 5448875956280972e-06), ('uk', 1 426629410161695e-06), ('he', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "5448875956280972e-06), ('uk', 1 426629410161695e-06), ('he', 1 2828655826524482e-06), ('ht', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "426629410161695e-06), ('he', 1 2828655826524482e-06), ('ht', 1 1689126040437259e-06), ('gl', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "2828655826524482e-06), ('ht', 1 1689126040437259e-06), ('gl', 1 1616668871283764e-06), ('lo', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "1689126040437259e-06), ('gl', 1 1616668871283764e-06), ('lo', 9 347252785119053e-07), ('af', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "1616668871283764e-06), ('lo', 9 347252785119053e-07), ('af', 7 484629804821452e-07), ('ne', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "347252785119053e-07), ('af', 7 484629804821452e-07), ('ne', 7 300909032892378e-07), ('bo', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "484629804821452e-07), ('ne', 7 300909032892378e-07), ('bo', 7 131517918423924e-07), ('yi', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "300909032892378e-07), ('bo', 7 131517918423924e-07), ('yi', 6 635310114688764e-07), ('bg', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "131517918423924e-07), ('yi', 6 635310114688764e-07), ('bg', 6 587071084140916e-07), ('sk', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "635310114688764e-07), ('bg', 6 587071084140916e-07), ('sk', 5 735764716519043e-07), ('ca', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "587071084140916e-07), ('sk', 5 735764716519043e-07), ('ca', 5 648569185723318e-07), ('fo', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "735764716519043e-07), ('ca', 5 648569185723318e-07), ('fo', 5 341127575775317e-07), ('hr', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "648569185723318e-07), ('fo', 5 341127575775317e-07), ('hr', 5 105456466480973e-07), ('eu', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "341127575775317e-07), ('hr', 5 105456466480973e-07), ('eu', 4 696778148627345e-07), ('mr', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "105456466480973e-07), ('eu', 4 696778148627345e-07), ('mr', 3 7754429627057107e-07), ('as', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "696778148627345e-07), ('mr', 3 7754429627057107e-07), ('as', 3 254415048559167e-07), ('is', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "7754429627057107e-07), ('as', 3 254415048559167e-07), ('is', 3 0110334137134487e-07), ('sd', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "254415048559167e-07), ('is', 3 0110334137134487e-07), ('sd', 2 468284208134719e-07), ('bs', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0110334137134487e-07), ('sd', 2 468284208134719e-07), ('bs', 1 9568257414448453e-07), ('lv', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "468284208134719e-07), ('bs', 1 9568257414448453e-07), ('lv', 1 9056203370837466e-07), ('oc', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "9568257414448453e-07), ('lv', 1 9056203370837466e-07), ('oc', 1 8505502907828486e-07), ('be', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "9056203370837466e-07), ('oc', 1 8505502907828486e-07), ('be', 1 0872528832805983e-07), ('lt', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "8505502907828486e-07), ('be', 1 0872528832805983e-07), ('lt', 8 967857212383024e-08), ('az', 8"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0872528832805983e-07), ('lt', 8 967857212383024e-08), ('az', 8 519601379930464e-08), ('kn', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "967857212383024e-08), ('az', 8 519601379930464e-08), ('kn', 7 98144199620765e-08), ('sq', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "519601379930464e-08), ('kn', 7 98144199620765e-08), ('sq', 7 855544481571997e-08), ('ps', 7"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "98144199620765e-08), ('sq', 7 855544481571997e-08), ('ps', 7 809649815726516e-08), ('sr', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "855544481571997e-08), ('ps', 7 809649815726516e-08), ('sr', 6 305368316361637e-08), ('mt', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "809649815726516e-08), ('sr', 6 305368316361637e-08), ('mt', 6 055202561583428e-08), ('pa', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "305368316361637e-08), ('mt', 6 055202561583428e-08), ('pa', 6 000831831443065e-08), ('et', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "055202561583428e-08), ('pa', 6 000831831443065e-08), ('et', 5 135789393762025e-08), ('mk', 3"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "000831831443065e-08), ('et', 5 135789393762025e-08), ('mk', 3 2338792976815967e-08), ('gu', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "135789393762025e-08), ('mk', 3 2338792976815967e-08), ('gu', 2 364544826605197e-08), ('kk', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "2338792976815967e-08), ('gu', 2 364544826605197e-08), ('kk', 1 567788920908697e-08), ('ln', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "364544826605197e-08), ('kk', 1 567788920908697e-08), ('ln', 6 264571528191709e-09), ('am', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "567788920908697e-08), ('ln', 6 264571528191709e-09), ('am', 6 224920134911827e-09), ('ka', 5"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "264571528191709e-09), ('am', 6 224920134911827e-09), ('ka', 5 706568551033797e-09), ('so', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "224920134911827e-09), ('ka', 5 706568551033797e-09), ('so', 1 5853309776048263e-09), ('su', 6"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "706568551033797e-09), ('so', 1 5853309776048263e-09), ('su', 6 504919936034526e-10), ('tg', 4"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "5853309776048263e-09), ('su', 6 504919936034526e-10), ('tg', 4 0215164531787195e-10), ('lb', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "504919936034526e-10), ('tg', 4 0215164531787195e-10), ('lb', 2 813904109721932e-10), ('ha', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0215164531787195e-10), ('lb', 2 813904109721932e-10), ('ha', 2 4737029091781437e-10), ('tk', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "813904109721932e-10), ('ha', 2 4737029091781437e-10), ('tk', 1 239682662079744e-10), ('tt', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "4737029091781437e-10), ('tk', 1 239682662079744e-10), ('tt', 1 0529802724201787e-10), ('ba', 9"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "239682662079744e-10), ('tt', 1 0529802724201787e-10), ('ba', 9 616449997418286e-11), ('mg', 2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0529802724201787e-10), ('ba', 9 616449997418286e-11), ('mg', 2 2568936303146714e-11), ('uz', 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "616449997418286e-11), ('mg', 2 2568936303146714e-11), ('uz', 1 2670413329640695e-11)], transcription_options=TranscriptionOptions(beam_size=5, best_of=5, patience=1, length_penalty=1, repetition_penalty=1, no_repeat_ngram_size=0, log_prob_threshold=-1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "2568936303146714e-11), ('uz', 1 2670413329640695e-11)], transcription_options=TranscriptionOptions(beam_size=5, best_of=5, patience=1, length_penalty=1, repetition_penalty=1, no_repeat_ngram_size=0, log_prob_threshold=-1 0, no_speech_threshold=0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "2670413329640695e-11)], transcription_options=TranscriptionOptions(beam_size=5, best_of=5, patience=1, length_penalty=1, repetition_penalty=1, no_repeat_ngram_size=0, log_prob_threshold=-1 0, no_speech_threshold=0 6, compression_ratio_threshold=2"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0, no_speech_threshold=0 6, compression_ratio_threshold=2 4, condition_on_previous_text=True, prompt_reset_on_temperature=0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "6, compression_ratio_threshold=2 4, condition_on_previous_text=True, prompt_reset_on_temperature=0 5, temperatures=[0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "4, condition_on_previous_text=True, prompt_reset_on_temperature=0 5, temperatures=[0 0, 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "5, temperatures=[0 0, 0 2, 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0, 0 2, 0 4, 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "2, 0 4, 0 6, 0"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "4, 0 6, 0 8, 1"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "6, 0 8, 1 0], initial_prompt=None, prefix=None, suppress_blank=True, suppress_tokens=(1, 2, 7, 8, 9, 10,"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "8, 1 0], initial_prompt=None, prefix=None, suppress_blank=True, suppress_tokens=(1, 2, 7, 8, 9, 10, 14, 25, 26, 27, 28, 29, 31, 58, 59, 60, 61, 62, 63, 90, 91, 92, 93, 359, 503, 522, 542, 873, 893, 902, 918, 922, 931, 1350, 1853, 1982, 2460, 2627, 3246, 3253, 3268, 3536, 3846, 3961, 4183, 4667, 6585, 6647, 7273, 9061, 9383, 10428, 10929, 11938, 12033, 12331, 12562, 13793, 14157, 14635, 15265, 15618, 16553, 16604, 18362, 18956, 20075, 21675, 22520, 26130, 26161, 26435, 28279, 29464, 31650, 32302, 32470, 36865, 42863, 47425, 49870, 50254, 50258, 50358, 50359, 50360, 50361, 50362), without_timestamps=False, max_initial_timestamp=1 0, word_timestamps=False, prepend_punctuations='\"\\'“¿([{-', append_punctuations='\"\\'"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "49870, 50254, 50258, 50358, 50359, 50360, 50361, 50362), without_timestamps=False, max_initial_timestamp=1 0, word_timestamps=False, prepend_punctuations='\"\\'“¿([{-', append_punctuations='\"\\' 。,，"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "0, word_timestamps=False, prepend_punctuations='\"\\'“¿([{-', append_punctuations='\"\\' 。,， ！"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "。,， ！ ？:：”)]}、', multilingual=False, max_new_tokens=None, clip_timestamps='0', hallucination_silence_threshold=None, hotwords=None), vad_options=None)"
+  },
+  {
+    "file_path": "C:\\Users\\jagga\\OneDrive\\Desktop\\VideoTool\\ClipSort\\Temp\\Transcript\\videoplayback2.txt",
+    "content": "！ ？:：”)]}、', multilingual=False, max_new_tokens=None, clip_timestamps='0', hallucination_silence_threshold=None, hotwords=None), vad_options=None)"
+  }
+]
