@@ -26,6 +26,7 @@ coverage.xml
 share/
 Temp/
 
+.env
 # Environment files and secrets
 .env
 .env.*
