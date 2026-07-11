@@ -25,7 +25,8 @@ coverage.xml
 .hypothesis
 share/
 Temp/
-
+Assets/
+VideoScript/
 .env
 # Environment files and secrets
 .env
