@@ -9,6 +9,8 @@ from PreProcessing.extractAudio import extract_audio
 from PreProcessing.extractText import extract_text
 from VectorEngine.vector_generation import vector_engine
 from PreProcessing.ScriptPipeline import ScriptPipeline
+from PreProcessing.TranscriptNormalizer import normalize_transcripts
+from SearchEngine.Search import search
 from Paths import SCRIPTS
 
 
@@ -19,9 +21,13 @@ def preprocess(videos):
     for video in videos:
         audio_files = extract_audio(video)
         all_transcriptions.extend(extract_text(audio_files))
+    normalize_transcripts(all_transcriptions)  # clean garbled Hinglish → English before embedding
     vector_engine(all_transcriptions)
     for script in SCRIPTS.glob("*.txt"):
+        if script.name.startswith("Normalized_"):
+            continue   # skip normalized outputs — they are not source scripts
         ScriptPipeline(script)
+    search()
     
 
 

@@ -1,7 +1,7 @@
 import faiss 
 import numpy as np
 from PreProcessing.Paths import BASE_DIR
-from models.Embeddings import embedding_model
+from models.Embeddings import encode_passages
 from PreProcessing.Paths import TEMP_TEXT
 import json
 from PreProcessing.Chunker import chunker
@@ -14,7 +14,7 @@ def vector_engine(transcriptions):
             text = file.read()
 
         chunks = chunker(text)
-        embeddings = embedding_model.encode(chunks)
+        embeddings = encode_passages(chunks)
 
         for chunk, embedding in zip(chunks, embeddings):
             all_embeddings.append(embedding)
@@ -27,7 +27,7 @@ def vector_engine(transcriptions):
 
     dimension = vectors.shape[1]
 
-    index = faiss.IndexFlatL2(dimension)
+    index = faiss.IndexFlatIP(dimension)
 
     index.add(vectors)
     vector_store_dir = BASE_DIR / "VectorStore"

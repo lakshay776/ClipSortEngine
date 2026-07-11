@@ -1,7 +1,7 @@
 import faiss 
 import numpy as np
 from PreProcessing.Paths import BASE_DIR
-from models.Embeddings import embedding_model
+from models.Embeddings import encode_passages, encode_query_batch
 from PreProcessing.Paths import TEMP_TEXT
 from PreProcessing.Chunker import chunker 
 import json
@@ -42,7 +42,7 @@ def vector_engine(script_file):
         script = file.read()
 
     chunks, line_numbers = _chunk_with_lines(script)
-    embeddings = embedding_model.encode(chunks)
+    embeddings = encode_passages(chunks)
     metadata = []
     for chunk, emb, lineno in zip(chunks, embeddings, line_numbers):
         all_embeddings.append(emb)
@@ -52,17 +52,27 @@ def vector_engine(script_file):
             "content": chunk
         })
 
-    vectors = np.array(all_embeddings).astype("float32")
+    passage_vecs = np.array(all_embeddings).astype("float32")
 
-    dimension = vectors.shape[1]
+    # Also encode as "query: " vectors — used by Search.py at search time (no model needed)
+    query_embeddings = encode_query_batch(chunks)
+    query_vecs = np.array(query_embeddings).astype("float32")
 
-    index = faiss.IndexFlatL2(dimension)
+    dimension = passage_vecs.shape[1]
 
-    index.add(vectors)
+    # passage index — for being retrieved
+    passage_index = faiss.IndexFlatIP(dimension)
+    passage_index.add(passage_vecs)
+
+    # query index — for doing the searching
+    query_index = faiss.IndexFlatIP(dimension)
+    query_index.add(query_vecs)
+
     vector_store_dir = BASE_DIR / "VectorStore"
     vector_store_dir.mkdir(parents=True, exist_ok=True)
-    faiss.write_index(index, str(vector_store_dir / "Script_vector_store.faiss"))
+    faiss.write_index(passage_index, str(vector_store_dir / "Script_vector_store.faiss"))
+    faiss.write_index(query_index,   str(vector_store_dir / "Script_query_store.faiss"))
     with open(vector_store_dir / "Script_metadata.json", "w", encoding="utf-8") as file:
         json.dump(metadata, file, indent=2, ensure_ascii=False)
     
-    print(f"Stored {index.ntotal} vectors")
+    print(f"Stored {passage_index.ntotal} script vectors (passage + query indexes)")
