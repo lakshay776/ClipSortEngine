@@ -27,6 +27,7 @@ share/
 Temp/
 Assets/
 VideoScript/
+Results/
 .env
 # Environment files and secrets
 .env

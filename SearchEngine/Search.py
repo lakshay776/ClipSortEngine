@@ -10,6 +10,8 @@ SCRIPT_META_PATH         = VECTOR_STORE / "Script_metadata.json"
 TRANSCRIPT_INDEX_PATH    = VECTOR_STORE / "transcription_vector_store.faiss"
 TRANSCRIPT_META_PATH     = VECTOR_STORE / "transcription_metadata.json"
 
+RESULTS_DIR              = BASE_DIR / "Results"
+
 TOP_K = 3   # how many nearest transcription chunks to return per script chunk
 
 def search():
@@ -50,6 +52,29 @@ def search():
             "top_matches":  matches,
         })
 
+    # ── Build line-number → file mapping ─────────────────────────────────────
+    mapping = []
+    for res in results:
+        sc  = res["script_chunk"]
+        mapping.append({
+            "line_number": sc["line_number"],
+            "script_file": sc["file_path"],
+            "matches": [
+                {
+                    "rank":         m["rank"],
+                    "cosine_score": m["cosine_score"],
+                    "transcript_file": m["transcript"]["file_path"],
+                }
+                for m in res["top_matches"]
+            ],
+        })
+
+    # ── Save mapping to Results/ ───────────────────────────────────────────────
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    mapping_path = RESULTS_DIR / "line_mapping.json"
+    with open(mapping_path, "w", encoding="utf-8") as f:
+        json.dump(mapping, f, indent=2, ensure_ascii=False)
+
     # ── Print results ─────────────────────────────────────────────────────────
     for res in results:
         sc = res["script_chunk"]
@@ -62,3 +87,4 @@ def search():
             print(f"  [{m['rank']}] score={m['cosine_score']:.4f}  {content[:80]}...")
 
     print(f"\nDone. Matched {n_scripts} script chunks against {n_transcripts} transcription chunks.")
+    print(f"Mapping saved → {mapping_path}")
