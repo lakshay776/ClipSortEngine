@@ -12,9 +12,23 @@ from PreProcessing.ScriptPipeline import ScriptPipeline
 from PreProcessing.TranscriptNormalizer import normalize_transcripts
 from SearchEngine.Search import search
 from Paths import SCRIPTS
+from Renaming.Sort import Sort
+from Renaming.Renaming import Rename
 
+
+RESULTS = BASE_DIR / "Results"
+_STALE_FILES = [
+    RESULTS / "line_mapping.json",
+    RESULTS / "sorted_file_sequence.json",
+]
 
 def preprocess(videos):
+    # Clear stale result files from any previous run
+    for f in _STALE_FILES:
+        if f.exists():
+            f.unlink()
+            print(f"Cleared stale file: {f.name}")
+
     all_transcriptions= []
     audio_files=[]
     
@@ -28,8 +42,13 @@ def preprocess(videos):
             continue   # skip normalized outputs — they are not source scripts
         ScriptPipeline(script)
     search()
-    
-
+    Sort()
+    Rename()
+    print("*************************************************************")
+    print("*************************************************************")
+    print("*************************************************************")
+    print("*************************************************************")
+    print("-----------------------Renaming Done-------------------------")
 
    
 
