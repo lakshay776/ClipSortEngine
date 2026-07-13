@@ -1,52 +1,29 @@
-flowchart TD
-    A(["`**Input**
-    Raw Video Clips
-    _Assets/_`"]) --> B
+```mermaid
+graph TD
+  S["Shooting Script\nVideoScript/*.txt"] --> SP
 
-    S(["`**Input**
-    Shooting Script
-    _VideoScript/*.txt_`"]) --> SP
+  subgraph PREPROCESS["Pre-Processing"]
+    B["Extract Audio\nffmpeg"] --> C["Transcribe Audio\nfaster-whisper small int8"]
+    C --> D["Normalize Transcripts\nGemini API - fix Hinglish"]
+    D --> E["Chunk & Embed Transcripts\nmultilingual-e5-small (passage:)"]
+    E --> F[("FAISS Index\ntranscription_vector_store")]
+  end
 
-    subgraph PREPROCESS ["⚙️ Pre-Processing"]
-        B["🎵 Extract Audio
-        _ffmpeg_"]
-        B --> C["📝 Transcribe Audio
-        _faster-whisper · small · int8_"]
-        C --> D["✨ Normalize Transcripts
-        _Gemini API_
-        _(fix Hinglish, garbled text)_"]
-        D --> E["🔢 Chunk & Embed Transcripts
-        _intfloat/multilingual-e5-small_
-        _(passage: prefix)_"]
-        E --> F[("🗄️ FAISS Index
-        transcription_vector_store.faiss")]
-    end
+  subgraph SCRIPT["Script Processing"]
+    SP["Chunk & Embed Script Lines\nmultilingual-e5-small (query:)"] --> SQ[("FAISS Index\nScript_query_store")]
+  end
 
-    subgraph SCRIPT ["📄 Script Processing"]
-        SP["🔢 Chunk & Embed Script Lines
-        _intfloat/multilingual-e5-small_
-        _(query: prefix)_"]
-        SP --> SQ[("🗄️ FAISS Index
-        Script_query_store.faiss")]
-    end
+  subgraph SEARCH["Search Engine"]
+    F --> SE["Cosine Similarity Search\nFAISS IndexFlatIP Top-3"]
+    SQ --> SE
+    SE --> LM[("line_mapping.json\nscript line to best match")]
+  end
 
-    subgraph SEARCH ["🔍 Search Engine"]
-        F --> SE["Cosine Similarity Search
-        _FAISS · IndexFlatIP · Top-3_"]
-        SQ --> SE
-        SE --> LM[("📋 line_mapping.json
-        script line → best transcript match")]
-    end
+  subgraph RENAME["Rename Stage"]
+    LM --> SO["Sort by Script Order\nSort.py"]
+    SO --> SF[("sorted_file_sequence.json")]
+    SF --> RN["Find & Rename Video Files\nRenaming.py"]
+  end
 
-    subgraph RENAME ["🏷️ Rename Stage"]
-        LM --> SO["Sort by Script Order
-        _Sort.py_"]
-        SO --> SF[("📋 sorted_file_sequence.json
-        transcript file → index")]
-        SF --> RN["Find & Rename Video Files
-        _Renaming.py_"]
-    end
-
-    RN --> OUT(["`**Output**
-    Renamed Video Clips
-    _1.MOV, 2.MOV, 3.MOV…_`"])
+  RN --> OUT["Renamed Video Clips\n1.MOV 2.MOV 3.MOV"]
+```
