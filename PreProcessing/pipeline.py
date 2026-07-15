@@ -1,3 +1,5 @@
+from past.types import basestring
+from huggingface_hub.inference._generated.types import document_question_answering
 from pathlib import Path
 import sys
 
@@ -5,8 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
 
-from PreProcessing.extractAudio import extract_audio
-from PreProcessing.extractText import extract_text
+from PreProcessing.TranscriptionService import TranscriptionService
 from VectorEngine.vector_generation import vector_engine
 from PreProcessing.ScriptPipeline import ScriptPipeline
 from PreProcessing.TranscriptNormalizer import normalize_transcripts
@@ -32,9 +33,12 @@ def preprocess(videos):
     all_transcriptions= []
     audio_files=[]
     
-    for video in videos:
-        audio_files = extract_audio(video)
-        all_transcriptions.extend(extract_text(audio_files))
+    # for video in videos:
+    #     audio_files = extract_audio(video)
+    #     all_transcriptions.extend(extract_text(audio_files))
+    Subsription=input()
+    all_transcriptions=TranscriptionService(videos,Subsription)
+
     normalize_transcripts(all_transcriptions)  # clean garbled Hinglish → English before embedding
     vector_engine(all_transcriptions)
     for script in SCRIPTS.glob("*.txt"):
