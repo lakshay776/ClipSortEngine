@@ -27,10 +27,14 @@ def Rename():
             continue
 
         ext = os.path.splitext(match)[1]                      # e.g. ".MOV"
-        old_path = os.path.join(ASSETS_DIR, match)
-        new_path = os.path.join(ASSETS_DIR, f"{index}{ext}")  # e.g. "1.MOV"
+        old_path = Path(ASSETS_DIR) / match
+        new_path = Path(ASSETS_DIR) / f"{index}{ext}"         # e.g. "1.MOV"
 
-        os.rename(old_path, new_path)
+        if old_path == new_path:
+            print(f"Already named correctly: {match}")
+            continue
+
+        old_path.replace(new_path)  # overwrites destination on Windows safely
         print(f"Renamed: {match} -> {index}{ext}")
 
 if __name__ == "__main__":

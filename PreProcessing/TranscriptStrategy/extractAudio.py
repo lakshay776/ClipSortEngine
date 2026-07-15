@@ -21,12 +21,12 @@ def extract_audio(video):
 
 
 def _extract_audio_file(video_file: Path):
-    audio = TEMP_AUDIO / f"{video_file.stem}.aac"
+    audio = TEMP_AUDIO / f"{video_file.stem}.mp3"
     (
         ffmpeg
         .input(str(video_file))
-        .output(str(audio), acodec="copy", vn=None)
+        .output(str(audio), vn=None, acodec="libmp3lame", audio_bitrate="128k")
         .run(overwrite_output=True)
     )
-    print(f"{audio} aduio extracted")
+    print(f"{audio} audio extracted")
     return audio

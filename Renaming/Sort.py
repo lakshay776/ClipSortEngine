@@ -17,13 +17,14 @@ def Sort():
             if top_file not in seen:
                 seen[top_file] = len(seen)+1
 
+    with open(RESULTS / "sorted_file_sequence.json", "w") as out:
+        json.dump(seen, out, indent=4)
+    print("Saved sorted_file_sequence.json")
+
 
 if __name__ == "__main__":
     Sort()
     for filename, index in seen.items():
         print(f"Renaming {filename} to {index}")
-    with open(RESULTS / "sorted_file_sequence.json", "w") as out:
-        json.dump(seen, out, indent=4)
-    print("Saved sorted_file_sequence.json")
                 
     
